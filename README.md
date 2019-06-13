@@ -8,7 +8,7 @@ Built With:
 * CSS3
 
 # GitHub Page
-Live version: 
+Live version: https://nazeh.github.io/apple_archived_website_clone/.
 
 # Authors
 * Ar Nazeh https://github.com/Nazeh
