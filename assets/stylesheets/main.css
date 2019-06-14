@@ -7,6 +7,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: underline;
+}
+
 
 /* ======= Header ======= */
 
@@ -50,6 +54,7 @@ nav {
 nav ul {
 	display: flex;
 	justify-content: space-between;
+	font-size: 15px;
 }
 
 nav ul li {
@@ -99,8 +104,31 @@ nav input {
 section {
 	max-width: 980px;
 	margin: auto;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 50px;
+	margin-top: 10vh;
 }
 
+section h1 {
+	font-size: 80px;
+
+}
+
+section h2 {
+	font-size: 35px;
+	line-height: 1.5em;
+
+}
+
+section a {
+	font-size: 20px;
+}
+
+section img {
+	transform: translateY(25%);
+	height: 22px;
+}
 
 /* ===================== */
 
