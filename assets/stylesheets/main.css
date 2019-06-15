@@ -42,7 +42,7 @@ nav {
 	max-width: 980px;
 	margin: auto;
 	display: grid;
-	grid-template-columns: auto 132px;
+	grid-template-columns: 1fr auto;
 
 	background-color: grey;
 	background: linear-gradient(to bottom, rgba(128, 128, 128, 1) 0%, rgba(112, 112, 112, 1) 50%, rgba(94, 94, 94, 1) 51%, rgba(51, 51, 51, 1) 100%);
@@ -74,16 +74,21 @@ nav li:hover {
 	background-color: rgba(0, 0, 0, .3);
 }
 
+nav .nav-a{
+	text-decoration: none ;
+}
 
-nav>div {
+
+nav form{
 	height: 36px;
+
 	border-left: 1px solid rgba(0, 0, 0, 0.25);
 	box-sizing: border-box;
 	padding: 8px 13px;
 }
 
 nav input {
-	width: 100%;
+	width: 106px;
 	height: 20px;
 	box-sizing: border-box;
 	padding: 2px 25px;
@@ -97,16 +102,20 @@ nav input {
 	background-position: 10px;
 	background-position-x: ;
 	background-origin: border-box;
+	transition: width 500ms;
 }
 
 nav input:focus {
 	box-shadow: rgb(0, 0, 0) 0px 2px 1px 0px inset, rgb(160, 160, 160) 0px 1px 0px 0px;
 	outline: none;
+	width: 145px;
+	background-color: rgb(173, 173, 173);
+	transition: width 500ms;
   }
 
 
-/* ======= section ======= */
-section {
+/* ======= header  ======= */
+header  {
 	max-width: 980px;
 	margin: auto;
 	text-align: center;
@@ -115,25 +124,10 @@ section {
 	margin-top: 10vh;
 }
 
-section h1 {
-	font-size: 80px;
-
+.title{
+	background-image: url("../images/your_verse_title_small.png")
 }
 
-section h2 {
-	font-size: 35px;
-	line-height: 1.5em;
-
-}
-
-section a {
-	font-size: 20px;
-}
-
-section img {
-	transform: translateY(25%);
-	height: 22px;
-}
 
 /* ===================== */
 
