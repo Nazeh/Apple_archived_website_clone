@@ -74,12 +74,12 @@ nav li:hover {
 	background-color: rgba(0, 0, 0, .3);
 }
 
-nav .nav-a{
-	text-decoration: none ;
+nav .nav-a {
+	text-decoration: none;
 }
 
 
-nav form{
+nav form {
 	height: 36px;
 
 	border-left: 1px solid rgba(0, 0, 0, 0.25);
@@ -111,11 +111,11 @@ nav input:focus {
 	width: 145px;
 	background-color: rgb(173, 173, 173);
 	transition: width 500ms;
-  }
+}
 
 
 /* ======= header  ======= */
-header  {
+header {
 	max-width: 980px;
 	margin: auto;
 	text-align: center;
@@ -124,26 +124,26 @@ header  {
 
 }
 
-header a{
+header a {
 	display: block;
 }
 
-.title{
+.title {
 	width: 100%;
 	height: 104px;
 	background-image: url("../images/your_verse_title_small.png");
 	background-repeat: no-repeat;
-	background-position: 0 3px; 
+	background-position: 0 3px;
 }
 
-.slogan{
+.slogan {
 	width: 100%;
 	height: 82px;
 	background-image: url("../images/your_verse_subhead_small.png");
 	background-repeat: no-repeat;
 }
 
-.cta{
+.cta {
 	width: 100%;
 	height: 32px;
 	margin-top: 32px;
@@ -152,24 +152,26 @@ header a{
 
 }
 
-.cta:hover{
+.cta:hover {
 	background-position: 0 -32px;
 }
 
 /* ===================== */
-
-aside ul {
-	margin-top: 2px;
+footer .gallery {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 3px;
 }
 
-aside li {
+.gallery a {
+	display: block;
+	height: 200px;
 	width: 24.8%;
 }
 
-aside img {
+.gallery img {
+	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
 }
@@ -178,24 +180,29 @@ aside img {
 
 /* ======= footer ======= */
 footer {
-	max-width: 980px;
 	margin: auto;
 	font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: rgb(110, 110, 110);
 	font-size: 10px;
-	padding: 25px;
 }
 
 footer a {
 	color: rgb(0, 136, 204);
 }
 
-footer div {
+footer .container{
+	max-width: 980px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+footer .container div {
 	display: flex;
+	padding: 10px 25px;
 }
 
 .top {
-	justify-content: space-between
+	justify-content: space-between;
 }
 
 .top ul {
@@ -217,8 +224,8 @@ footer ul :nth-child(1) {
 	border-left: none;
 }
 
-footer .bottom {
-	padding-top: 10px;
+footer ul img{
+	transform: translateY(-25%)
 }
 
 footer ul {
