@@ -7,14 +7,14 @@ a {
 	text-decoration: none;
 }
 
-a:hover{
+a:hover {
 	text-decoration: underline;
 }
 
 
-/* ======= Header ======= */
+/* ======= main======= */
 
-header {
+main {
 	background: url("../images/header-bckg.jpg");
 	background-repeat: no-repeat;
 	background-position-x: 50%;
@@ -33,7 +33,7 @@ header {
 
 }
 
-header a {
+main a {
 	color: white;
 }
 
@@ -98,6 +98,11 @@ nav input {
 	background-position-x: ;
 	background-origin: border-box;
 }
+
+nav input:focus {
+	box-shadow: rgb(0, 0, 0) 0px 2px 1px 0px inset, rgb(160, 160, 160) 0px 1px 0px 0px;
+	outline: none;
+  }
 
 
 /* ======= section ======= */
