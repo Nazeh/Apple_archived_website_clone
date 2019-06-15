@@ -15,7 +15,7 @@ a:hover{
 /* ======= Header ======= */
 
 header {
-	background: url("/assets/images/header-bckg.jpg");
+	background: url("../images/header-bckg.jpg");
 	background-repeat: no-repeat;
 	background-position-x: 50%;
 	background-position-y: 100%;
@@ -91,7 +91,7 @@ nav input {
 	background: transparent;
 	border: none;
 	box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px;
-	background-image: url("/assets/images/search-icon-white-one-md.png");
+	background-image: url("../images/search-icon-white.png");
 	background-size: 10px 10px;
 	background-repeat: no-repeat;
 	background-position: 10px;
