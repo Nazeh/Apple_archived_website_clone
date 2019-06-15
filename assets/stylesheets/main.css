@@ -23,7 +23,7 @@ main {
 	background-size: cover;
 	display: block;
 	box-sizing: border-box;
-	cursor: pointer;
+
 
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	color: white;
@@ -124,15 +124,39 @@ header  {
 	margin-top: 10vh;
 }
 
-.title{
-	background-image: url("../images/your_verse_title_small.png")
+header a{
+	display: block;
 }
 
+.title{
+	width: 100%;
+	height: 104px;
+	background-image: url("../images/your_verse_title_small.png");
+	background-repeat: no-repeat;
+	background-position: 0 3px; 
+}
+
+.slogan{
+	width: 100%;
+	height: 82px;
+	background-image: url("../images/your_verse_subhead_small.png");
+	background-repeat: no-repeat;
+}
+
+.cta{
+	width: 100%;
+	height: 32px;
+	margin-top: 32px;
+	background-image: url("../images/cta_your_verse_27pt.png");
+	background-repeat: no-repeat;
+
+}
+
+.cta:hover{
+	background-position: 0 -32px;
+}
 
 /* ===================== */
-
-/* ======= Aside ======= */
-aside {}
 
 aside ul {
 	margin-top: 2px;
