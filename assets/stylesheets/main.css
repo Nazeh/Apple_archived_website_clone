@@ -100,7 +100,6 @@ nav input {
 	background-size: 10px 10px;
 	background-repeat: no-repeat;
 	background-position: 10px;
-	background-position-x: ;
 	background-origin: border-box;
 	transition: width 500ms;
 }
